@@ -8,9 +8,9 @@ CACHE_FILE = 'n.cache.json'
 path = os.getcwd()
 SAMPLE1 = os.path.join(os.path.abspath(os.path.join(path, os.pardir)), 'sample1.json')
 SAMPLE2 = os.path.join(os.path.abspath(os.path.join(path, os.pardir)), 'sample2.json')
-# CLIENT_ID = '-vTkW9j8N_bLhOjqtQpthA'
+
 CLIENT_ID = 'cui56X5nsYbwPKcp4rX23Q'
-# SECRET = '-u5GPcmtHxFTOMA79k83AdQYcXoMpQ'
+
 SECRET = 'HytxTa_SBatcGFpasvtnTcJPS7F_mw'
 USER_AGENT = 'data science'
 
@@ -25,8 +25,8 @@ def main():
 
     data = {
         'grant_type': 'password',
-        'username': 'Senior-Advantage5844',
-        'password': "7j'xnPfb!uWvhv&"
+        'username': '',
+        'password': ""
     }
 
     headers = {'User-Agent': 'MyAPI/0.0.1'}
