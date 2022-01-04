@@ -1,0 +1,3 @@
+Some of the tweets are retweets and quote tweets, so we overestimate the number of unique tweets (out of the 108 that mention Trump, 30 are retweets and 1 is a quote tweet. Please see notebook)
+Some people do mention Trump but they do not capitalise the T, so we underestimate the number of tweets regarding Trump
+Some people (68) mention @realDonaldTrump and do not include the word "Trump" in the post, but these are not counted, so we underestimate the number of tweets regarding Trump
